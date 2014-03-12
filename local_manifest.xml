@@ -5,10 +5,14 @@
            fetch="https://github.com/" />
 
   <!-- remove AOKP repos -->
-  
+  <remove-project name="android_vendor_pa" />
   <!-- remove CM repos -->
  
   <!-- espmartin -->
+  <project path="vendor/pa" name="espmartin/vendor_pa" remote="github" revision="kitkat" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+  
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="kk-sm-4.9" />
   <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="kk-sm-4.9" />
   <project path="local_manifest" name="espmartin/AOSPAL" remote="github" revision="kk-sm-4.9" />
