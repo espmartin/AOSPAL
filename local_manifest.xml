@@ -5,8 +5,11 @@
            fetch="https://github.com/" />
 
   <!-- remove AOSPAL repos -->
-  <remove-project name="AOSPAL/android_vendor_pa" />
-  <remove-project name="AOSPAL/android_frameworks_av" />
+  <remove-project name="android_vendor_pa" />
+  <remove-project name="android_frameworks_av" />
+  
+  <!-- AOSP -->
+  <remove-project name="platform/hardware/libhardware_legacy" />
   
   <!-- remove CM repos -->
  
