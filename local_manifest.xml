@@ -4,8 +4,10 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <!-- remove AOKP repos -->
-  <remove-project name="android_vendor_pa" />
+  <!-- remove AOSPAL repos -->
+  <remove-project name="AOSPAL/android_vendor_pa" />
+  <remove-project name="AOSPAL/android_frameworks_av" />
+  
   <!-- remove CM repos -->
  
   <!-- espmartin -->
