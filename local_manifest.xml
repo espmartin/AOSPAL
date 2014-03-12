@@ -18,7 +18,8 @@
   <project path="local_manifest" name="espmartin/AOSPAL" remote="github" revision="kk-sm-4.9" />
   
   <!-- Mustaavalkosta -->
-
+  <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" remote="github" revision="cm-11.0" />
+  
   <!-- CyanogenMod -->
 
   <!-- SaberMod -->
