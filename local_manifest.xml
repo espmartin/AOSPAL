@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- remove AOKP repos -->
+  
+  <!-- remove CM repos -->
+ 
+  <!-- espmartin -->
+  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="kitkat" />
+  <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="kitkat" />
+  <project path="local_manifest" name="espmartin/AOSPAL" remote="github" revision="kk-sm-4.9" />
+  
+  <!-- Mustaavalkosta -->
+
+  <!-- CyanogenMod -->
+
+  <!-- SaberMod -->
+
+</manifest>
