@@ -4,15 +4,22 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote name="aosp"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+
   <!-- remove AOSPAL repos -->
   <remove-project name="android_vendor_pa" />
   <remove-project name="android_frameworks_av" />
   
-  <!-- AOSP -->
+  <!-- remove AOSP repos -->
   <remove-project name="platform/hardware/libhardware_legacy" />
   
   <!-- remove CM repos -->
- 
+  
+  <!-- AOSP -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="refs/heads/master" groups="pdk,linux,arm,notdefault" />
+  
   <!-- espmartin -->
   <project path="vendor/pa" name="espmartin/vendor_pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />
